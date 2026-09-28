@@ -8,7 +8,6 @@ const projects = [
     downloads: 180,
     icon: 'assets/apps/app2_icon.png',
     preview: 'assets/apps/app2_preview.png',
-    featured: true,
     badge: 'Más descargada',
     links: [
       { name: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.ManguGames.SuperCharadas' },
@@ -17,9 +16,8 @@ const projects = [
   },
   {
     title: 'Cozy Tent',
-    kind: 'Juego cozy · Android · pronto iOS, Steam y Meta Quest',
+    kind: 'Juego cozy · Android',
     desc: 'Una noche de lluvia dentro de una tienda de campaña, con un hurón de compañía. Enciende la vela, prepara café, busca una emisora o juega ajedrez: el cielo sigue el reloj real.',
-    featured: true,
     badge: 'Lanzamiento más reciente',
     icon: 'assets/apps/cozy_icon.png',
     preview: 'assets/apps/cozy_preview.jpg',
