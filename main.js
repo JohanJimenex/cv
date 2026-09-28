@@ -9,9 +9,23 @@ const projects = [
     icon: 'assets/apps/app2_icon.png',
     preview: 'assets/apps/app2_preview.png',
     featured: true,
+    badge: 'Más descargada',
     links: [
       { name: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.ManguGames.SuperCharadas' },
       { name: 'App Store', url: 'https://apps.apple.com/us/app/super-charadas-guessup/id1503858643' }
+    ]
+  },
+  {
+    title: 'Cozy Tent',
+    kind: 'Juego cozy · Android · pronto iOS, Steam y Meta Quest',
+    desc: 'Una noche de lluvia dentro de una tienda de campaña, con un hurón de compañía. Enciende la vela, prepara café, busca una emisora o juega ajedrez: el cielo sigue el reloj real.',
+    featured: true,
+    badge: 'Lanzamiento más reciente',
+    icon: 'assets/apps/cozy_icon.png',
+    preview: 'assets/apps/cozy_preview.jpg',
+    links: [
+      { name: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.jopam.cozytent' },
+      { name: 'Sitio del juego', url: 'https://johanjimenex.github.io/cozy-tent/' }
     ]
   },
   {
@@ -76,7 +90,7 @@ const projects = [
   {
     title: 'STOP',
     kind: 'Juego de palabras · Android & iOS',
-    desc: 'Di palabras por tema y letra antes de que se acabe el tiempo. Mi lanzamiento más reciente.',
+    desc: 'Di palabras por tema y letra antes de que se acabe el tiempo. Ideal para jugar en grupo.',
     downloads: null,
     icon: 'assets/apps/app6_icon.png',
     preview: 'assets/apps/app6_preview.png',
@@ -96,7 +110,7 @@ function renderProjects() {
         <img src="${p.preview}" alt="Captura de ${p.title}" loading="lazy">
       </div>
       <div class="project__body">
-        ${p.featured ? '<span class="badge">Más descargada</span>' : ''}
+        ${p.badge ? `<span class="badge">${p.badge}</span>` : ''}
         <div class="project__top">
           <img class="project__icon" src="${p.icon}" alt="" loading="lazy">
           <div>
@@ -105,7 +119,7 @@ function renderProjects() {
           </div>
           ${p.downloads
             ? `<p class="project__dl">${p.downloads}K<small>descargas</small></p>`
-            : `<p class="project__dl"><small>${p.label || 'Nuevo'}</small></p>`}
+            : `<p class="project__dl"><small>${p.label || ''}</small></p>`}
         </div>
         <p class="project__desc">${p.desc}</p>
         <div class="project__links">
