@@ -15,16 +15,14 @@ const projects = [
     ]
   },
   {
-    title: 'Super Charadas',
-    kind: 'Juego multijugador · Android & iOS',
-    desc: 'Juego de fiesta para adivinar palabras en grupo. Mi app más descargada, con reseñas de familias que la usan en cada reunión.',
-    downloads: 180,
-    icon: 'assets/apps/app2_icon.png',
-    preview: 'assets/apps/app2_preview.png',
-    badge: 'Más descargada',
+    title: 'Cuidando Dos Corazones',
+    kind: 'Plataforma web · Angular',
+    desc: 'Programa de formación en cardio-obstetricia para profesionales de la salud: presentación del curso, objetivos, contenido, facilitadores internacionales e inscripción.',
+    label: 'Web',
+    icon: 'assets/apps/cdc_icon.svg',
+    preview: 'assets/apps/cdc_preview.jpg',
     links: [
-      { name: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.ManguGames.SuperCharadas' },
-      { name: 'App Store', url: 'https://apps.apple.com/us/app/super-charadas-guessup/id1503858643' }
+      { name: 'Visitar sitio', url: 'https://cuidandodoscorazones.com/' }
     ]
   },
   {
@@ -40,14 +38,16 @@ const projects = [
     ]
   },
   {
-    title: 'Cuidando Dos Corazones',
-    kind: 'Plataforma web · Angular',
-    desc: 'Programa de formación en cardio-obstetricia para profesionales de la salud: presentación del curso, objetivos, contenido, facilitadores internacionales e inscripción.',
-    label: 'Web',
-    icon: 'assets/apps/cdc_icon.svg',
-    preview: 'assets/apps/cdc_preview.jpg',
+    title: 'Super Charadas',
+    kind: 'Juego multijugador · Android & iOS',
+    desc: 'Juego de fiesta para adivinar palabras en grupo. Mi app más descargada, con reseñas de familias que la usan en cada reunión.',
+    downloads: 180,
+    icon: 'assets/apps/app2_icon.png',
+    preview: 'assets/apps/app2_preview.png',
+    badge: 'Más descargada',
     links: [
-      { name: 'Visitar sitio', url: 'https://cuidandodoscorazones.com/' }
+      { name: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.ManguGames.SuperCharadas' },
+      { name: 'App Store', url: 'https://apps.apple.com/us/app/super-charadas-guessup/id1503858643' }
     ]
   },
   {
