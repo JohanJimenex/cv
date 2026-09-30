@@ -2,6 +2,19 @@ document.documentElement.classList.add('js');
 
 const projects = [
   {
+    title: 'Apúntame',
+    kind: 'SaaS · Angular · Bot de WhatsApp',
+    desc: 'Reservas de citas por WhatsApp para barberías, salones y spas. Un asistente agenda solo en las horas libres, envía recordatorios, y el negocio ve todo en un panel con agenda, ingresos e inasistencia.',
+    label: 'Web',
+    featured: true,
+    icon: 'assets/apps/apuntame_icon.svg',
+    preview: 'assets/apps/apuntame_preview.jpg',
+    links: [
+      { name: 'Ver producto', url: 'https://apuntame.netlify.app/' },
+      { name: 'Panel', url: 'https://apuntame.netlify.app/app/' }
+    ]
+  },
+  {
     title: 'Super Charadas',
     kind: 'Juego multijugador · Android & iOS',
     desc: 'Juego de fiesta para adivinar palabras en grupo. Mi app más descargada, con reseñas de familias que la usan en cada reunión.',
