@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=9">
+  <link rel="stylesheet" href="styles.css?v=10">
   <script>
     try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
   </script>
@@ -81,9 +81,9 @@
           Vengo del mundo de QA, así que escribo código pensando en cómo se va a romper.
         </p>
         <ul class="pillars">
-          <li class="reveal"><h3>Arquitectura</h3><p>Microservicios, APIs REST, componentes reutilizables.</p></li>
+          <li class="reveal"><h3>Arquitectura</h3><p>Microservicios en .NET, APIs REST, colas y eventos con Service Bus y Event Hubs.</p></li>
           <li class="reveal"><h3>Calidad</h3><p>Pruebas unitarias, automatización con Playwright, rendimiento con JMeter, OWASP.</p></li>
-          <li class="reveal"><h3>Entrega</h3><p>CI/CD en Azure DevOps, Docker, Gitflow, despliegues a QA y producción.</p></li>
+          <li class="reveal"><h3>Entrega</h3><p>CI/CD en Azure DevOps, Azure App Service, IIS y Docker, de QA a producción.</p></li>
         </ul>
       </div>
     </section>
@@ -105,17 +105,19 @@
             <div class="job__when">2022 — <span class="now">Actual</span></div>
             <div class="job__what">
               <h3>Programador Frontend (Angular)</h3>
-              <p class="job__tags">Angular · .NET · Azure Functions · Microservicios</p>
+              <p class="job__tags">Angular · .NET · Azure · Service Bus · Bots con IA</p>
               <ul>
-                <li>Análisis, diseño y desarrollo de aplicaciones web escalables con Angular y .NET.</li>
-                <li>Diseño y consumo de APIs REST integradas con múltiples servicios backend.</li>
-                <li>Desarrollo de procesos serverless con Azure Functions.</li>
-                <li>Code review de pares, estandarización de código y pruebas unitarias.</li>
+                <li>Desarrollo de aplicaciones web con Angular y microservicios en .NET.</li>
+                <li>Procesos asíncronos con colas y eventos (Azure Service Bus, Event Hubs / Kafka) y Azure Functions.</li>
+                <li>Automatización de mensajería con bots e integración de agentes de IA.</li>
+                <li>Despliegues en Azure App Service y configuración de ambientes en IIS.</li>
               </ul>
               <details>
                 <summary>Ver más responsabilidades</summary>
                 <ul>
-                  <li>Arquitecturas modernas: microservicios, componentes reutilizables y patrones de diseño.</li>
+                  <li>Integraciones con servicios externos, incluida lectura y escritura de archivos en servidores FTP.</li>
+                  <li>Diseño y consumo de APIs REST; componentes reutilizables y patrones de diseño.</li>
+                  <li>Code review de pares, estandarización de código y pruebas unitarias.</li>
                   <li>Validación de estimaciones, planificación de sprints y decisiones de arquitectura junto a jefes técnicos.</li>
                   <li>Instalación y validación de soluciones en ambientes QA y producción.</li>
                   <li>Soporte a aplicaciones en producción y resolución de incidentes críticos.</li>
@@ -190,7 +192,15 @@
           </div>
           <div class="stack__row reveal">
             <h3>DevOps</h3>
-            <p>Azure DevOps, Azure Portal, Docker, Git (Gitflow), pipelines de despliegue, gestión de entornos</p>
+            <p>Azure DevOps, Docker, Git (Gitflow), IIS, pipelines de despliegue, gestión de entornos</p>
+          </div>
+          <div class="stack__row reveal">
+            <h3>Azure y mensajería</h3>
+            <p>Azure Functions, Azure App Service, Service Bus, Event Hubs (Kafka)</p>
+          </div>
+          <div class="stack__row reveal">
+            <h3>Bots e IA</h3>
+            <p>Automatización de mensajería con bots, integración de agentes de IA</p>
           </div>
           <div class="stack__row reveal">
             <h3>Calidad</h3>
@@ -277,6 +287,6 @@
     <span>© <span id="year"></span> Johan Jiménez</span>
   </footer>
 
-  <script src="main.js?v=9"></script>
+  <script src="main.js?v=10"></script>
 </body>
 </html>
