@@ -54,7 +54,7 @@ const projects = [
     title: "Nolan's Galaxy",
     kind: 'Arcade 2D pixel art · Web, Android & iOS',
     desc: 'Arcade espacial en pixel art donde controlas a un astronauta en misión. Publicado en tres plataformas.',
-    downloads: 120,
+    downloads: null,
     icon: 'assets/apps/app5_icon.png',
     preview: 'assets/apps/app5_preview.png',
     links: [
@@ -67,7 +67,7 @@ const projects = [
     title: 'Dominó Apunte y Anota',
     kind: 'Utilidad · Android & iOS',
     desc: 'Anotador de puntos de dominó rápido y organizado, pensado para jugar sin papel ni lápiz.',
-    downloads: 90,
+    downloads: null,
     icon: 'assets/apps/app1_icon.png',
     preview: 'assets/apps/app1_preview.png',
     links: [
@@ -79,7 +79,7 @@ const projects = [
     title: 'Info Movies',
     kind: 'App de consulta · Android & iOS',
     desc: 'Busca películas y consulta tráiler, puntuación, reparto e información, consumiendo una API externa.',
-    downloads: 40,
+    downloads: null,
     icon: 'assets/apps/app3_icon.png',
     preview: 'assets/apps/app3_preview.png',
     links: [
@@ -91,7 +91,7 @@ const projects = [
     title: 'Calculadora de Préstamos',
     kind: 'Finanzas · Android',
     desc: 'Calcula cuotas de un préstamo y genera la tabla de amortización completa.',
-    downloads: 30,
+    downloads: null,
     icon: 'assets/apps/app4_icon.png',
     preview: 'assets/apps/app4_preview.png',
     links: [
